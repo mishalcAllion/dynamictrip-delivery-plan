@@ -140,10 +140,10 @@
           <div class="today-line"><div class="today-label">TODAY</div></div>
         </div>
         <div class="gantt-day-header">Fri 10</div>
-        <div class="gantt-day-header" style="background: #fef3c7;">Sat 11<br><span class="text-[10px] text-amber-700 font-bold">Weekend + SL</span></div>
-        <div class="gantt-day-header" style="background: #fef3c7;">Sun 12<br><span class="text-[10px] text-amber-700 font-bold">Weekend + SL</span></div>
-        <div class="gantt-day-header" style="background: #fffbeb;">Mon 13<br><span class="text-[10px] text-amber-600 font-bold">SL Holiday</span></div>
-        <div class="gantt-day-header" style="background: #fffbeb;">Tue 14<br><span class="text-[10px] text-amber-600 font-bold">SL Holiday</span></div>
+        <div class="gantt-day-header" style="background: #fef3c7;">Sat 11<br><span class="text-[10px] text-amber-700 font-bold">Contingency Buffer</span></div>
+        <div class="gantt-day-header" style="background: #fef3c7;">Sun 12<br><span class="text-[10px] text-amber-700 font-bold">Contingency Buffer</span></div>
+        <div class="gantt-day-header" style="background: #fffbeb;">Mon 13<br><span class="text-[10px] text-amber-600 font-bold">Standby Coverage</span></div>
+        <div class="gantt-day-header" style="background: #fffbeb;">Tue 14<br><span class="text-[10px] text-amber-600 font-bold">Standby Coverage</span></div>
         <div class="gantt-day-header">Wed 15</div>
 
         <!-- Timezone Row -->
@@ -257,19 +257,19 @@
         <div class="text-amber-500 text-lg font-bold flex-shrink-0 mt-0.5">!</div>
         <div class="flex-1">
           <div class="font-bold text-amber-900 text-sm mb-3">Demo-Day Bug Triage Policy — Apr 13 & 14</div>
-          <div class="text-xs text-amber-800 mb-3">All feedback received during the holiday standby window must be triaged before any fix is started. Two questions: <span class="font-bold">(1) Is this a demo blocker? (2) If not a blocker, is it still needed for a presentable demo?</span></div>
+          <div class="text-xs text-amber-800 mb-3">All feedback received during the standby window must be triaged before any fix is started. Two questions: <span class="font-bold">(1) Is this a demo blocker? (2) If not a blocker, is it still needed for a presentable demo?</span></div>
           <div class="grid grid-cols-3 gap-3">
             <div class="bg-white rounded-lg p-3 border-l-4 border-red-400">
               <div class="font-bold text-red-600 text-xs mb-1">CRITICAL BLOCKER → Core Team</div>
-              <div class="text-xs text-slate-600">Cannot run the demo without this. Core team on standby. Keep scope tight — no polish, no extras alongside this fix.</div>
+              <div class="text-xs text-slate-600">Cannot run the demo without this. Core team on standby. Keep scope tight.</div>
             </div>
             <div class="bg-white rounded-lg p-3 border-l-4 border-blue-300">
               <div class="font-bold text-blue-600 text-xs mb-1">LOW PRIORITY MUST-HAVE → Proposed: Dustin</div>
-              <div class="text-xs text-slate-600">Demo works but looks rough without it. Proposed: Dustin handles with AI/Claude assist. <span class="font-semibold">Surface-level fixes only</span> — no data flow, API logic, or implementation changes.</div>
+              <div class="text-xs text-slate-600">Demo works but looks rough without it. Proposed: Dustin handles.</div>
             </div>
             <div class="bg-white rounded-lg p-3 border-l-4 border-slate-300">
               <div class="font-bold text-slate-500 text-xs mb-1">NOT A BLOCKER → Defer</div>
-              <div class="text-xs text-slate-600">Log for post-demo sprint. <span class="font-semibold">Automatically deferred:</span> new features, mobile UI changes, backend nice-to-haves, non-critical bugs.</div>
+              <div class="text-xs text-slate-600">Log for post-demo sprint. <span class="font-semibold">Automatically deferred:</span> new features, backend nice-to-haves, non-critical bugs.</div>
             </div>
           </div>
         </div>
@@ -426,7 +426,7 @@
                 <span class="bg-yellow-400 text-yellow-900 text-[11px] font-bold px-2.5 py-0.5 rounded-full">MEDIUM LIKELIHOOD</span>
               </div>
               <div class="font-bold text-slate-900 text-sm mb-1">Feedback on Apr 13-14 requires immediate fixes</div>
-              <div class="text-sm text-slate-600">Sunthar/Prahar preview on Apr 13 may surface critical bugs. Core SL team is on holiday. Only limited capacity for fixes before demo day.</div>
+              <div class="text-sm text-slate-600">Sunthar/Prahar preview on Apr 13 may surface critical bugs. Core backend team availability is limited on Apr 13-14. Only critical and high priority fixes can be addressed in this window.</div>
             </div>
             <div class="min-w-[220px] bg-white rounded-lg p-3 border border-yellow-200 flex-shrink-0">
               <div class="text-[11px] font-bold text-slate-400 uppercase mb-1.5">Mitigation</div>
@@ -443,8 +443,8 @@
                 <span class="bg-slate-400 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">LOW IMPACT</span>
                 <span class="bg-green-400 text-green-900 text-[11px] font-bold px-2.5 py-0.5 rounded-full">LOW LIKELIHOOD</span>
               </div>
-              <div class="font-bold text-slate-900 text-sm mb-1">Holiday / weekend availability issues</div>
-              <div class="text-sm text-slate-600">Backend team working through SL Sinhala/Tamil New Year holidays (Apr 11-14).</div>
+              <div class="font-bold text-slate-900 text-sm mb-1">Limited availability window — Apr 13-14</div>
+              <div class="text-sm text-slate-600">Backend team operating at reduced capacity Apr 13-14. Coverage is confirmed for critical items.</div>
             </div>
             <div class="min-w-[220px] bg-white rounded-lg p-3 border border-slate-200 flex-shrink-0">
               <div class="text-[11px] font-bold text-slate-400 uppercase mb-1.5">Mitigation</div>
